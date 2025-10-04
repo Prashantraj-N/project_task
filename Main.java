@@ -7,6 +7,9 @@ public class TaskChecker {
         if (subTasks > 5) {
             System.out.println("Large");
         }
+        else {
+            System.out.println("Small");
+        }
         sc.close();
     }
 }
